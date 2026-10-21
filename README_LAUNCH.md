@@ -23,3 +23,4 @@ Images provided by organizer are cropped and placed in assets. Champion: Apple W
 
 ## V59 official mascot
 Replaced the single map cube with the exact user-provided running cube asset and reused it as the homepage key visual. No generated illustration is included.
+\n## V60 restoration\nRestores the original `community-map.webp` route from run_v57, with one official supplied cube positioned along its route. Restores animated liquid-fill heart (not a static emoji), updates via results.json polling every 30 seconds while page is open. The display is near-live after HR publishes a verified JSON update; it is NOT real-time Strava sync. Replaces custom `savills.` with cropped official logo artwork; 2026 appears on a separate line. Guide step 3 updated in both languages. Champion section uses white background for the provided watch image. No old Firebase/auth features restored.\n
