@@ -29,3 +29,6 @@ Shortened leaderboard and guide disclaimer in VI/EN; donation heart now displays
 
 ## V62
 Step 1 includes Strava display name format Employee ID - Full Name, example, and one-account-only policy in VI/EN. Header uses plain black `savills` text without dot, image crop, glow or shadow, as requested. Other V61 behavior unchanged.
+
+## V63 FAQs and rules
+Adds fifth bottom tab FAQs & Rules, fully bilingual, with the five user-supplied eligibility/verification rules and six common questions. Eligible dates: 23 Oct–22 Nov 2026. Existing pages and data logic retained.
