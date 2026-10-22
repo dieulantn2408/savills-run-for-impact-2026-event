@@ -34,3 +34,9 @@ Step 1 includes Strava display name format Employee ID - Full Name, example, and
 Adds fifth bottom tab FAQs & Rules, fully bilingual, with the five user-supplied eligibility/verification rules and six common questions. Eligible dates: 23 Oct–22 Nov 2026. Existing pages and data logic retained.
 
 V64: Updated employee name format H1234_Tran Ngoc A, treadmill verification and no manual KM; official updates in Strava Announcements channel, sharing in Club Posts; replaced all five prize images with user-provided assets.
+
+
+## V65 — Official participation rules supersede previous drafts
+The organizer's latest rules are authoritative: ONLY outdoor GPS-tracked Run/Walk, no treadmill, stationary running, cycling, manual entry or GPS-less activity. Valid time: 2026-10-23 00:00 through 2026-11-22 23:59 Vietnam time. Activities count only AFTER joining the Club. Strava account display name: EmployeeID_FirstNameLastName without spaces in the name (example H1234_LanTran); one account per employee. 30,000 KM is a collective goal, equivalent to VND 30m. Full eight rule categories, FAQ and onboarding steps revised in both VI/EN. Announcements channel and Club Posts guidance retained. The older V64 treadmill allowance and naming examples are obsolete. Prize photos and all visuals are unchanged.
+
+V66: Naming format updated to MSNV_TênHọ / EmployeeID_FirstNameLastName, e.g. H1234_LanTran. First name precedes last name.
