@@ -32,3 +32,5 @@ Step 1 includes Strava display name format Employee ID - Full Name, example, and
 
 ## V63 FAQs and rules
 Adds fifth bottom tab FAQs & Rules, fully bilingual, with the five user-supplied eligibility/verification rules and six common questions. Eligible dates: 23 Oct–22 Nov 2026. Existing pages and data logic retained.
+
+V64: Updated employee name format H1234_Tran Ngoc A, treadmill verification and no manual KM; official updates in Strava Announcements channel, sharing in Club Posts; replaced all five prize images with user-provided assets.
