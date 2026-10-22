@@ -17,3 +17,9 @@ header{background:#ffdd00}.official-logo{display:block;width:106px;height:39px;o
 
 /* V63 FAQ mobile section */
 .faq-heading{font-weight:900;font-size:12px;letter-spacing:1.2px;margin:27px 0 11px;border-bottom:2px solid #ffdd00;padding-bottom:8px}.rule-card{display:flex;gap:12px;background:#fff;border:1px solid #e7e7e2;border-radius:10px;padding:15px 13px;margin:9px 0}.rule-number{flex:0 0 28px;font-size:21px;font-weight:900;color:#c8102e}.rule-card b{font-size:14px}.rule-card p{font-size:13px;color:#555;line-height:1.55;margin:5px 0 0}.faq-item{background:#fff;border:1px solid #e7e7e2;border-radius:9px;margin:8px 0;padding:0 14px}.faq-item summary{cursor:pointer;font-weight:750;font-size:13px;padding:15px 22px 15px 0;position:relative;list-style:none}.faq-item summary::-webkit-details-marker{display:none}.faq-item summary:after{content:'+';position:absolute;right:0;font-size:20px;top:9px;color:#c8102e}.faq-item[open] summary:after{content:'−'}.faq-item p{font-size:13px;color:#555;margin:0;padding:0 0 15px;line-height:1.55}nav button small{font-size:9px}nav button span{font-size:21px}
+
+/* V67: scannable participant-friendly bullet lists */
+.content-bullets{margin:10px 0 0;padding-left:1.15rem;list-style:disc;display:grid;gap:8px;line-height:1.65}
+.content-bullets li{padding-left:3px}
+.rule-card .content-bullets,.faq-item .content-bullets,.step .content-bullets{max-width:75ch}
+.faq-item .content-bullets{padding-bottom:5px}
