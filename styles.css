@@ -23,3 +23,18 @@ header{background:#ffdd00}.official-logo{display:block;width:106px;height:39px;o
 .content-bullets li{padding-left:3px}
 .rule-card .content-bullets,.faq-item .content-bullets,.step .content-bullets{max-width:75ch}
 .faq-item .content-bullets{padding-bottom:5px}
+
+/* V70 desktop typography: use reliable system fonts with Vietnamese glyph support,
+   avoid unsupported 950/750 weights and viewport-sized headline overflow. */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body,button,input{font-family:Arial,"Helvetica Neue",Helvetica,"Segoe UI",sans-serif}
+body{font-synthesis:weight;overflow-wrap:break-word}
+.hero h1{font-size:clamp(47px,10vw,76px);font-weight:900;letter-spacing:-2.5px;overflow-wrap:normal}
+.champ-head h3{font-weight:900}
+.faq-item summary{font-weight:700}
+.step,.rule-card,.faq-item,.prize-tile{min-width:0}
+.step>div,.rule-card>div:last-child{min-width:0;flex:1}
+.content-bullets{overflow-wrap:anywhere}
+@media(min-width:700px){.hero h1{font-size:76px}.hero p{max-width:410px}}
+@media(min-width:1100px){main{max-width:760px}.hero-mascot{right:0}.page h2{font-size:32px}}
+@media(max-width:390px){.hero h1{font-size:clamp(43px,12vw,53px);letter-spacing:-2px}}
