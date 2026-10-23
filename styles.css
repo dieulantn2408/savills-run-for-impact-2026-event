@@ -38,3 +38,10 @@ body{font-synthesis:weight;overflow-wrap:break-word}
 @media(min-width:700px){.hero h1{font-size:76px}.hero p{max-width:410px}}
 @media(min-width:1100px){main{max-width:760px}.hero-mascot{right:0}.page h2{font-size:32px}}
 @media(max-width:390px){.hero h1{font-size:clamp(43px,12vw,53px);letter-spacing:-2px}}
+
+/* V74: numbered rule subsections are headings, not bullet points */
+.content-items{display:grid;gap:8px;margin-top:12px;line-height:1.65;overflow-wrap:anywhere}
+.content-item{position:relative;padding-left:15px;font-size:13px;color:#454545}
+.content-item::before{content:"";position:absolute;left:2px;top:.75em;width:4px;height:4px;border-radius:50%;background:#777}
+.content-subheading{font-size:14px;font-weight:850;color:#202020;margin:14px 0 2px;padding:0 0 6px;border-bottom:1px solid #e9e7df;line-height:1.45}
+.content-subheading:first-child{margin-top:0}
