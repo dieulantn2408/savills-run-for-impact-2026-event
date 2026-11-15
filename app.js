@@ -167,7 +167,10 @@ const ranked=snapshot.filter(x=>x.km>0&&!isExcluded(x)).map((x,i)=>({...x,rank:i
 const matches=x=>[x.name,x.fullName,x.employeeId].some(v=>String(v||'').toLocaleLowerCase().includes(term));
 const excluded=snapshot.filter(isExcluded), limit=week3?10:period==='week2'?20:30;
 const unranked=snapshot.filter(x=>x.km===0&&!isExcluded(x)&&matches(x));
-const ordered=[...ranked.filter(x=>x.rank<=limit),...excluded,...ranked.filter(x=>x.rank>limit)].filter(matches);
+const ordered=(week3
+  ? [...ranked,...excluded].sort((a,b)=>b.km-a.km)
+  : [...ranked.filter(x=>x.rank<=limit),...excluded,...ranked.filter(x=>x.rank>limit)]
+).filter(matches);
 const row=x=>{const excluded=isExcluded(x);
 const nameNote=week3&&x.note?c.notes[x.note]:'';
 return `<div class="boardrow week1-row ${!excluded&&x.rank&&x.rank<=limit?'top30':''} ${excluded?'excluded':''}"><span class="rank">${excluded?'—':x.rank?'#'+x.rank:'—'}</span><div><b>${safe(x.fullName||x.name)}</b>${x.fullName?'<small>'+safe(x.name)+'</small>':''}${excluded?'<small class="exclusion-note">'+safe(nameNote||c.pendingName||(lang==='vi'?'Cần cập nhật tên Strava đúng cú pháp để được ghi nhận kết quả.':'Please update your Strava name to the required format so your result can be counted.'))+'</small>':'<small>'+x.activities+' '+c.activities+'</small>'}${nameNote&&!excluded?'<small class="name-action">'+safe(nameNote)+'</small>':''}</div><strong>${number(x.km)} KM</strong></div>`};
