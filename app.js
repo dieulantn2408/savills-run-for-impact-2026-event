@@ -9,88 +9,91 @@ const week1Copy = {"vi":{"title":"BẢNG XẾP HẠNG TUẦN 1","cutoff":"Tuần
 const week2Snapshot = [{"rank":1,"fullName":"Vũ Thị Hương","name":"HuongVu _8228","activities":38,"km":163.19},{"rank":2,"fullName":"Cao Thành Đô","name":"9536_ DoCao","activities":14,"km":121.45},{"rank":3,"fullName":"Huỳnh Thị Mỹ Hạnh","name":"7403_ HanhHuynh","activities":17,"km":118.56},{"rank":4,"fullName":"Nguyễn Thành Công","name":"4475 CongNguyen","activities":12,"km":109.01},{"rank":5,"fullName":"Lê Văn Phúc","name":"Phuc-0103 Levan","activities":8,"km":91.75},{"rank":6,"fullName":"","name":"7698_ ChuongDang","activities":8,"km":87.41},{"rank":7,"fullName":"Đặng Quang Huy","name":"5273_ HUYDANG","activities":24,"km":80.05},{"rank":8,"fullName":"Nguyễn Anh Triết","name":"i0452 _TrietNguyen","activities":22,"km":68.1},{"rank":9,"fullName":"Dương Kim Thụy","name":"6302 dương thụy","activities":23,"km":60},{"rank":10,"fullName":"Trần Lê Duy Minh","name":"A0222_MinhTran Tran","activities":4,"km":56.33},{"rank":11,"fullName":"Nguyễn Thị Giáng My","name":"5491_ My Nguyễn","activities":10,"km":56.17},{"rank":12,"fullName":"Nguyễn Thành Lộc","name":"2683 Nguyen Loc","activities":6,"km":52.2},{"rank":13,"fullName":"Đinh Nguyễn Anh Khoa","name":"9789 _KhoaDinh","activities":8,"km":51.86},{"rank":14,"fullName":"Nguyễn Thị Hải Yến","name":"ASTA989 _Yến Nguyễn","activities":9,"km":51.5},{"rank":15,"fullName":"Nguyễn Trung Nghĩa","name":"ASTA1404_NGHIA NGUYEN","activities":11,"km":47.85},{"rank":16,"fullName":"Bùi Thị Ngọc Mai","name":"9191 _MaiBui","activities":20,"km":44.84},{"rank":17,"fullName":"Văn Trúc Linh","name":"8186_ LinhVan","activities":8,"km":43.97},{"rank":18,"fullName":"Nguyễn Thanh Thảo","name":"9809_Thảo Nguyễn","activities":6,"km":42.35},{"rank":19,"fullName":"Đoàn Thị Anh","name":"0303_ Thi Anh Doan","activities":12,"km":38.6},{"rank":20,"fullName":"Vũ Thu Minh","name":"7947_Minh Vũ","activities":2,"km":37.6},{"rank":21,"fullName":"Đỗ Thị Nga","name":"2792_ NgaDo","activities":5,"km":33.01},{"rank":22,"fullName":"Phạm Thị Phương Yên","name":"9748 YenPham","activities":14,"km":31.22},{"rank":23,"fullName":"Vũ Thị Kim Hiền","name":"H4863_Hien Vu","activities":4,"km":30.5},{"rank":24,"fullName":"Phan Quốc Tiến","name":"H4912_Quốc Tiến Phan","activities":1,"km":30.44},{"rank":25,"fullName":"","name":"HI0796Tài Nguyễn","activities":4,"km":30.29},{"rank":26,"fullName":"Nguyễn Xuân Tưởng","name":"ASTA3244 _TuongNguyen","activities":9,"km":30.18},{"rank":27,"fullName":"Trần Khánh Duy","name":"6512_ Duy Trần","activities":4,"km":29.25},{"rank":28,"fullName":"","name":"Học Trần","activities":4,"km":27.72},{"rank":29,"fullName":"Nguyễn Thị Phương Anh","name":"ASTA3174 Phuong Anh Nguyen","activities":6,"km":25.35},{"rank":30,"fullName":"Bùi Thị Nhật Thương","name":"7588_ThuongBui .","activities":6,"km":25.15},{"rank":31,"fullName":"","name":"H8536_ ThuyLy","activities":4,"km":24.18},{"rank":32,"fullName":"Phạm Ngọc Phương Anh","name":"B0665_ Phương Anh Phạm","activities":6,"km":24.16},{"rank":33,"fullName":"Trương Đặng Huyền Trâm","name":"7697_Huyền Trâm Trương Đặng","activities":3,"km":23.91},{"rank":34,"fullName":"Lê Thị Quý Trâm","name":"9080_ TramLe","activities":6,"km":23.6},{"rank":35,"fullName":"Đinh Tuấn Anh","name":"H4796_ TuanAnhDinh","activities":2,"km":19.34},{"rank":36,"fullName":"Phạm Thị Lê Hà","name":"ASTA061 Ha Pham","activities":4,"km":17.58},{"rank":37,"fullName":"Lý Duy Hải","name":"ASTA2749 HaiLy","activities":4,"km":14.55},{"rank":38,"fullName":"Lê Trường Thọ","name":"ASTA819 _ThoLe","activities":3,"km":14.5},{"rank":39,"fullName":"Trần Thanh Vy","name":"HI0611 _VyTran","activities":2,"km":13.24},{"rank":40,"fullName":"Nguyễn Đình Lâm Bích","name":"H4910_ Bich Nguyen","activities":4,"km":12.85},{"rank":41,"fullName":"Hoàng Thị Thủy Tiên","name":"B0133- Tien Hoang .","activities":3,"km":12.4},{"rank":42,"fullName":"H Đôn Kriêng","name":"9410 HDonKrieng","activities":1,"km":11.5},{"rank":43,"fullName":"Đỗ Ngọc Quỳnh Thư","name":"9884 Do Quynhthu","activities":3,"km":11.33},{"rank":44,"fullName":"Nguyễn Thế Đạt","name":"ASTA2421_ Nguyen The Dat","activities":1,"km":10.04},{"rank":45,"fullName":"Hồ Bảo Minh","name":"6620_Minh Ho","activities":3,"km":9.42},{"rank":46,"fullName":"Trần Thị Tuyết Thanh","name":"B0635 Thanh Tran","activities":2,"km":9.22},{"rank":47,"fullName":"Lê Phan Bảo Duy","name":"8865 Duy Le","activities":3,"km":9.2},{"rank":48,"fullName":"","name":"_ 4962_Hien Nguyen","activities":4,"km":8.46},{"rank":49,"fullName":"","name":"Huy Hoang","activities":1,"km":8},{"rank":50,"fullName":"Nguyễn Ngọc Minh","name":"ASTA2485_ MinhNguyen","activities":2,"km":7.44},{"rank":51,"fullName":"Hoàng Thị Mỹ Dung","name":"Hoàng Thị Mỹ Dung 5342","activities":2,"km":7.38},{"rank":52,"fullName":"Nguyễn Vũ Trâm Anh","name":"ASTA3243 Tram Anh","activities":1,"km":7.03},{"rank":53,"fullName":"Đỗ Kiến Đạt","name":"8382 DatDo","activities":2,"km":4.8},{"rank":54,"fullName":"Trần Trung Hiếu","name":"Hiếu A0306","activities":2,"km":4.6},{"rank":55,"fullName":"Bùi Trần Vân Anh","name":"9707_Anh Bui","activities":2,"km":3.85},{"rank":56,"fullName":"Nguyễn Đức Tài","name":"6818_NGUYENDUCTAI SAVILLS","activities":1,"km":2.56},{"rank":57,"fullName":"Cao Thị Như Huỳnh","name":"9399 Huỳnh Cao","activities":2,"km":2.39},{"rank":58,"fullName":"Đỗ Quỳnh Chi","name":"9254 ChiDo","activities":1,"km":1.72},{"rank":59,"fullName":"Đoàn Thị Ngọc Giao","name":"GiaoDoan B0002_","activities":1,"km":1.01},{"rank":null,"fullName":"","name":"4809 _TuyenNguyen","activities":0,"km":0},{"rank":null,"fullName":"Phan Thị Diễm Kiều","name":"5876_KieuPhan Kaylen","activities":0,"km":0},{"rank":null,"fullName":"Nguyễn Toàn Như Thức","name":"8065_Thuc Nguyen","activities":0,"km":0},{"rank":null,"fullName":"Hà Thùy Phương","name":"H4791 _PhuongHa","activities":0,"km":0}];
 const week2Copy = {"vi":{"title":"BẢNG XẾP HẠNG TUẦN 2","cutoff":"Tuần 2: 31/10–06/11/2026 · Chốt kỳ: 23:59 ngày 06/11/2026 (GMT+7).","notice":"Kết quả đã được đối soát. Hai trường hợp đang chờ cập nhật tên Strava sẽ được tính khi cập nhật đúng cú pháp trước thời hạn.","rank":"Hạng","name":"Vận động viên","km":"KM được duyệt","activities":"hoạt động hợp lệ","unranked":"Chưa có KM được duyệt · Chưa xếp hạng","empty":"Không tìm thấy vận động viên.","pendingName":"Cần đổi tên Strava đúng cú pháp MSNV_TênHọ trước 19:00 ngày 09/11/2026 (GMT+7) để được tính kết quả."},"en":{"title":"WEEK 2 LEADERBOARD","cutoff":"Week 2: 31 October–6 November 2026 · Period closed at 23:59 on 6 November 2026 (GMT+7).","notice":"Results have been reviewed. The two pending results will be counted once the Strava names are updated to the required format by the deadline.","rank":"Rank","name":"Participant","km":"Approved KM","activities":"eligible activities","unranked":"No approved KM yet · Unranked","empty":"No matching participants.","pendingName":"Please update your Strava name to the EmployeeID_FirstNameLastName format by 19:00 on 9 November 2026 (GMT+7) for your result to count."}};
 const week3Snapshot = [
-  {"rank":1,"name":"Phuc-0103  Levan","fullName":"Lê Văn Phúc","km":84.53,"activities":7,"note":"format"},
-  {"rank":2,"name":"6302 dương thụy","fullName":"Dương Kim Thụy","km":79.31,"activities":26,"note":"format"},
-  {"rank":3,"name":"HuongVu _8228","fullName":"Vũ Thị Hương","km":77.08,"activities":16,"note":"format"},
-  {"rank":4,"name":"9536_ DoCao","fullName":"Cao Thành Đô","km":73.86,"activities":8},
-  {"rank":5,"name":"7403_ HanhHuynh","fullName":"Huỳnh Thị Mỹ Hạnh","km":58.69,"activities":15},
-  {"rank":6,"name":"9789 _KhoaDinh","fullName":"Đinh Nguyễn Anh Khoa","km":53.1,"activities":7},
-  {"rank":7,"name":"H4863_Hien Vu","fullName":"Vũ Thị Kim Hiền","km":46.21,"activities":4},
-  {"rank":8,"name":"5273_ HUYDANG","fullName":"Đặng Quang Huy","km":41.98,"activities":13},
-  {"rank":9,"name":"8186_ LinhVan","fullName":"Văn Trúc Linh","km":39.67,"activities":8},
-  {"rank":10,"name":"ASTA3244 _TuongNguyen","fullName":"Nguyễn Xuân Tưởng","km":39.05,"activities":12},
-  {"rank":11,"name":"2683 Nguyen Loc","fullName":"Nguyễn Thành Lộc","km":35.02,"activities":3,"note":"format"},
-  {"rank":12,"name":"H4796_ TuanAnhDinh","fullName":"Đinh Tuấn Anh","km":27.67,"activities":3},
-  {"rank":13,"name":"9191 _MaiBui","fullName":"Bùi Thị Ngọc Mai","km":24.6,"activities":8},
-  {"rank":14,"name":"4475 CongNguyen","fullName":"Nguyễn Thành Công","km":22.24,"activities":3,"note":"format"},
-  {"rank":15,"name":"ASTA1404_NGHIA NGUYEN","fullName":"Nguyễn Trung Nghĩa","km":19.34,"activities":5},
-  {"rank":16,"name":"Thảo Nguyễn 9809_","fullName":"Nguyễn Thanh Thảo","km":17.14,"activities":4,"note":"format"},
-  {"rank":17,"name":"0303_ Thi Anh Doan","fullName":"Đoàn Thị Anh","km":16.27,"activities":5},
-  {"rank":18,"name":"H4807 Nam Nguyễn","fullName":"Nguyễn Hoài Nam","km":14.47,"activities":1,"note":"format"},
-  {"rank":19,"name":"5491_ My Nguyễn","fullName":"Nguyễn Thị Giáng My","km":13.93,"activities":3},
-  {"rank":20,"name":"9080_ TramLe","fullName":"Lê Thị Quý Trâm","km":12.4,"activities":4},
-  {"rank":21,"name":"B0665_ Phương Anh Phạm","fullName":"Phạm Ngọc Phương Anh","km":12.34,"activities":4},
-  {"rank":22,"name":"7588_ThuongBui .","fullName":"Bùi Thị Nhật Thương","km":11.71,"activities":3},
-  {"rank":23,"name":"Hiếu A0306","fullName":"Trần Trung Hiếu","km":10.6,"activities":3,"note":"format"},
-  {"rank":24,"name":"B0635 Thanh Tran","fullName":"Trần Thị Tuyết Thanh","km":9.05,"activities":3,"note":"format"},
-  {"rank":25,"name":"7697_Huyền Trâm Trương Đặng","fullName":"Trương Đặng Huyền Trâm","km":8.79,"activities":2},
-  {"rank":26,"name":"7947_Minh Vũ","fullName":"Vũ Thu Minh","km":8.03,"activities":1},
-  {"rank":27,"name":"9410 HDonKrieng","fullName":"H Đôn Kriêng","km":7.82,"activities":1,"note":"format"},
-  {"rank":28,"name":"9748 YenPham","fullName":"Phạm Thị Phương Yên","km":7.81,"activities":4,"note":"format"},
-  {"rank":29,"name":"ASTA989   _Yến Nguyễn","fullName":"Nguyễn Thị Hải Yến","km":6.06,"activities":1},
-  {"rank":30,"name":"8382  DatDo","fullName":"Đỗ Kiến Đạt","km":6.05,"activities":1,"note":"format"},
-  {"rank":31,"name":"H4878 ThuLuu","fullName":"Lưu Hoàng Cẩm Thư","km":5.82,"activities":1,"note":"format"},
-  {"rank":32,"name":"H4882_Phuong Tran","fullName":"Trần Hoài Phương","km":5.35,"activities":1},
-  {"rank":33,"name":"ASTA2421_ Nguyen The Dat","fullName":"Nguyễn Thế Đạt","km":4.56,"activities":1},
-  {"rank":34,"name":"Hoàng Thị Mỹ Dung 5342","fullName":"Hoàng Thị Mỹ Dung","km":3.83,"activities":1,"note":"format"},
-  {"rank":35,"name":"8865 Duy Le","fullName":"Lê Phan Bảo Duy","km":3.58,"activities":1,"note":"format"},
-  {"rank":36,"name":"9254 ChiDo","fullName":"Đỗ Quỳnh Chi","km":3.47,"activities":1,"note":"format"},
-  {"rank":37,"name":"Lê Thừa 8166","fullName":"Trần Lê Thừa","km":2.05,"activities":1,"note":"format"},
-  {"rank":38,"name":"i0452 _TrietNguyen","fullName":"Nguyễn Anh Triết","km":2,"activities":1},
-  {"rank":39,"name":"B0133- Tien Hoang .","fullName":"Hoàng Thị Thủy Tiên","km":1.34,"activities":1,"note":"format"},
-  {"rank":40,"name":"ASTA3243 Tram Anh","fullName":"Nguyễn Vũ Trâm Anh","km":1.2,"activities":1,"note":"format"},
-  {"rank":41,"name":"6512_ Duy Trần","fullName":"Trần Khánh Duy","km":0.96,"activities":1},
-  {"rank":null,"name":"8065_Thuc Nguyen","fullName":"Nguyễn Toàn Như Thức","km":0,"activities":1},
-  {"rank":null,"name":"7698_ ChuongDang","fullName":"","km":0,"activities":0,"note":"roster"},
-  {"rank":null,"name":"9750 Trần Châu","fullName":"","km":0,"activities":0,"note":"roster"},
-  {"rank":null,"name":"_ 4962_Hien Nguyen","fullName":"","km":0,"activities":0,"note":"roster"},
-  {"rank":null,"name":"A0222_MinhTran Tran","fullName":"Trần Lê Duy Minh","km":0,"activities":0},
-  {"rank":null,"name":"H4791 _PhuongHa","fullName":"Hà Thùy Phương","km":0,"activities":0},
-  {"rank":null,"name":"HI0796Tài Nguyễn","fullName":"","km":0,"activities":0,"note":"rename"},
-  {"rank":null,"name":"Huy Hoang","fullName":"","km":0,"activities":0,"note":"roster"},
-  {"rank":null,"name":"Học Trần","fullName":"","km":0,"activities":0,"note":"rename"}
+  {"name":"6302 dương thụy","fullName":"Dương Kim Thụy","km":140.97,"activities":42,"note":"format"},
+  {"name":"9536_ DoCao","fullName":"Cao Thành Đô","km":134.04,"activities":12,"note":"format"},
+  {"name":"Phuc-0103 Levan","fullName":"Lê Văn Phúc","km":129.39,"activities":11,"note":"format"},
+  {"name":"HuongVu _8228","fullName":"Vũ Thị Hương","km":123.3,"activities":28,"note":"format"},
+  {"name":"7698_ ChuongDang","fullName":"","km":106.93,"activities":7,"note":"roster"},
+  {"name":"7403_ HanhHuynh","fullName":"Huỳnh Thị Mỹ Hạnh","km":91.18,"activities":25},
+  {"name":"9789 _KhoaDinh","fullName":"Đinh Nguyễn Anh Khoa","km":89.3,"activities":13},
+  {"name":"i0452 _TrietNguyen","fullName":"Nguyễn Anh Triết","km":86.07,"activities":17},
+  {"name":"H4863_Hien Vu","fullName":"Vũ Thị Kim Hiền","km":85.57,"activities":8},
+  {"name":"5273_ HUYDANG","fullName":"Đặng Quang Huy","km":81.12,"activities":25},
+  {"name":"ASTA3244 _TuongNguyen","fullName":"Nguyễn Xuân Tưởng","km":78.9,"activities":22},
+  {"name":"8186_ LinhVan","fullName":"Văn Trúc Linh","km":75.07,"activities":18},
+  {"name":"2683 Nguyen Loc","fullName":"Nguyễn Thành Lộc","km":72.67,"activities":7,"note":"format"},
+  {"name":"5491_ My Nguyễn","fullName":"Nguyễn Thị Giáng My","km":69.44,"activities":9,"note":"format"},
+  {"name":"9191 _MaiBui","fullName":"Bùi Thị Ngọc Mai","km":68.02,"activities":27},
+  {"name":"4475 CongNguyen","fullName":"Nguyễn Thành Công","km":59.84,"activities":7,"note":"format"},
+  {"name":"9809_Thảo Nguyễn","fullName":"Nguyễn Thanh Thảo","km":58.96,"activities":15},
+  {"name":"A0222_MinhTran Tran","fullName":"Trần Lê Duy Minh","km":58.07,"activities":4},
+  {"name":"H4807 Nam Nguyễn","fullName":"Nguyễn Hoài Nam","km":50.46,"activities":3,"note":"format"},
+  {"name":"H4796_ TuanAnhDinh","fullName":"Đinh Tuấn Anh","km":36.74,"activities":5},
+  {"name":"ASTA1404_NGHIA NGUYEN","fullName":"Nguyễn Trung Nghĩa","km":34.68,"activities":9},
+  {"name":"HI0796Tài Nguyễn","fullName":"","km":31.41,"activities":4,"note":"rename"},
+  {"name":"8382 DatDo","fullName":"Đỗ Kiến Đạt","km":30.11,"activities":2,"note":"format"},
+  {"name":"0303_ Thi Anh Doan","fullName":"Đoàn Thị Anh","km":27.98,"activities":8},
+  {"name":"Học Trần","fullName":"","km":22.56,"activities":4,"note":"rename"},
+  {"name":"7588_ThuongBui .","fullName":"Bùi Thị Nhật Thương","km":21.93,"activities":6,"note":"format"},
+  {"name":"B0635 Thanh Tran","fullName":"Trần Thị Tuyết Thanh","km":20.12,"activities":5,"note":"format"},
+  {"name":"Hiếu A0306","fullName":"Trần Trung Hiếu","km":19.64,"activities":6,"note":"format"},
+  {"name":"B0665_ Phương Anh Phạm","fullName":"Phạm Ngọc Phương Anh","km":18.54,"activities":6,"note":"format"},
+  {"name":"9080_ TramLe","fullName":"Lê Thị Quý Trâm","km":16.35,"activities":5},
+  {"name":"7947_Minh Vũ","fullName":"Vũ Thu Minh","km":15.11,"activities":2},
+  {"name":"8865 Duy Le","fullName":"Lê Phan Bảo Duy","km":11.11,"activities":3,"note":"format"},
+  {"name":"H4882_Phuong Tran","fullName":"Trần Hoài Phương","km":10.43,"activities":2},
+  {"name":"ASTA2421_ Nguyen The Dat","fullName":"Nguyễn Thế Đạt","km":9.61,"activities":2,"note":"format"},
+  {"name":"7697_Huyền Trâm Trương Đặng","fullName":"Trương Đặng Huyền Trâm","km":8.77,"activities":2,"note":"format"},
+  {"name":"9410 HDonKrieng","fullName":"H Đôn Kriêng","km":7.81,"activities":1,"note":"format"},
+  {"name":"9748 YenPham","fullName":"Phạm Thị Phương Yên","km":7.8,"activities":4,"note":"format"},
+  {"name":"Hoàng Thị Mỹ Dung 5342","fullName":"Hoàng Thị Mỹ Dung","km":7.55,"activities":2,"note":"format"},
+  {"name":"H8536_ ThuyLy","fullName":"","km":6.63,"activities":1,"note":"roster"},
+  {"name":"ASTA989 _Yến Nguyễn","fullName":"Nguyễn Thị Hải Yến","km":6.05,"activities":1},
+  {"name":"H4878 ThuLuu","fullName":"Lưu Hoàng Cẩm Thư","km":5.82,"activities":1,"note":"format"},
+  {"name":"9254 ChiDo","fullName":"Đỗ Quỳnh Chi","km":4.87,"activities":2,"note":"format"},
+  {"name":"Lê Thừa 8166","fullName":"Trần Lê Thừa","km":2.05,"activities":1,"note":"format"},
+  {"name":"_ 4962_Hien Nguyen","fullName":"","km":1.53,"activities":2,"note":"rosterFormat"},
+  {"name":"ASTA2485_ MinhNguyen","fullName":"Nguyễn Ngọc Minh","km":1.42,"activities":1},
+  {"name":"B0133- Tien Hoang .","fullName":"Hoàng Thị Thủy Tiên","km":1.34,"activities":1,"note":"format"},
+  {"name":"ASTA3243 Tram Anh","fullName":"Nguyễn Vũ Trâm Anh","km":1.2,"activities":1,"note":"format"},
+  {"name":"6512_ Duy Trần","fullName":"Trần Khánh Duy","km":0.96,"activities":1,"note":"format"},
+  {"name":"8065_Thuc Nguyen","fullName":"Nguyễn Toàn Như Thức","km":0,"activities":0},
+  {"name":"9750 Trần Châu","fullName":"","km":0,"activities":0,"note":"rosterFormat"},
+  {"name":"H4791 _PhuongHa","fullName":"Hà Thùy Phương","km":0,"activities":0}
 ];
 const week3Copy = {
   "vi": {
-    "title": "BẢNG XẾP HẠNG TUẦN 3 – TẠM TÍNH",
-    "cutoff": "Khoảng dữ liệu tạm tính từ 00:00 ngày 07/11/2026 đến 14:00 ngày 11/11/2026 (giờ Việt Nam, GMT+7).",
-    "notice": "Chỉ tính hoạt động đã được duyệt. Số KM và thứ hạng có thể thay đổi sau khi BTC hoàn tất đối soát.",
+    "title": "BẢNG XẾP HẠNG TUẦN 3",
+    "cutoff": "Kỳ chốt từ 00:00 ngày 07/11/2026 đến 23:59 ngày 13/11/2026 (giờ Việt Nam, GMT+7).",
+    "notice": "Kết quả Tuần 3 đã được đối soát. Hai dòng màu xám đang chờ cập nhật tên Strava và chưa được tính vào thứ hạng hoặc tổng KM.",
     "rank": "Hạng",
     "name": "Vận động viên",
     "km": "KM được duyệt",
     "activities": "hoạt động hợp lệ",
-    "unranked": "Chưa xếp hạng",
+    "unranked": "Chưa có KM được duyệt · Chưa xếp hạng",
     "empty": "Không tìm thấy vận động viên.",
     "notes": {
       "rename": "Cần cập nhật tên Strava đúng cú pháp MSNV_TênHọ để được ghi nhận kết quả.",
       "roster": "BTC đang đối chiếu tài khoản Strava với danh sách đăng ký.",
-      "format": "Vui lòng kiểm tra tên hiển thị Strava theo cú pháp MSNV_TênHọ."
+      "format": "Vui lòng kiểm tra tên hiển thị Strava theo cú pháp MSNV_TênHọ.",
+      "rosterFormat": "BTC đang đối chiếu tài khoản Strava với danh sách đăng ký. Vui lòng kiểm tra cú pháp MSNV_TênHọ."
     }
   },
   "en": {
-    "title": "WEEK 3 PROVISIONAL LEADERBOARD",
-    "cutoff": "Provisional period from 00:00 on 7 November 2026 through 14:00 on 11 November 2026 (Vietnam time, GMT+7).",
-    "notice": "Only approved activities count. Kilometres and rankings may change after the Organising Committee completes its review.",
+    "title": "WEEK 3 LEADERBOARD",
+    "cutoff": "Final results cover 00:00 on 7 November 2026 through 23:59 on 13 November 2026 (Vietnam time, GMT+7).",
+    "notice": "Week 3 results have been reviewed. The two grey rows are awaiting Strava name updates and are excluded from the rankings and total kilometres.",
     "rank": "Rank",
     "name": "Participant",
     "km": "Approved KM",
     "activities": "eligible activities",
-    "unranked": "Unranked",
+    "unranked": "No approved KM · Unranked",
     "empty": "No matching participants.",
     "notes": {
       "rename": "Please update your Strava name to the EmployeeID_FirstNameLastName format so your result can be counted.",
       "roster": "The Organising Committee is checking this Strava account against the registration list.",
-      "format": "Please check that your Strava display name follows the EmployeeID_FirstNameLastName format."
+      "format": "Please check that your Strava display name follows the EmployeeID_FirstNameLastName format.",
+      "rosterFormat": "The Organising Committee is checking this Strava account against the registration list. Please check the EmployeeID_FirstNameLastName format."
     }
   }
 };
@@ -117,7 +120,7 @@ const snapshot=week3?week3Snapshot:period==='week2'?week2Snapshot:week1Snapshot;
 const c=(week3?week3Copy:period==='week2'?week2Copy:week1Copy)[lang], number=n=>new Intl.NumberFormat(lang==='vi'?'vi-VN':'en-US',{minimumFractionDigits:2,maximumFractionDigits:2}).format(n);
 title.textContent=c.title;
 const term=$('search').value.trim().toLocaleLowerCase();
-const ranked=week3?snapshot.filter(x=>x.rank):snapshot.filter(x=>x.km>0&&!isExcluded(x)).map((x,i)=>({...x,rank:i+1}));
+const ranked=snapshot.filter(x=>x.km>0&&!isExcluded(x)).map((x,i)=>({...x,rank:i+1}));
 const matches=x=>[x.name,x.fullName,x.employeeId].some(v=>String(v||'').toLocaleLowerCase().includes(term));
 const excluded=snapshot.filter(isExcluded), limit=week3?10:period==='week2'?20:30;
 const unranked=snapshot.filter(x=>x.km===0&&!isExcluded(x)&&matches(x));
@@ -125,7 +128,7 @@ const ordered=[...ranked.filter(x=>x.rank<=limit),...excluded,...ranked.filter(x
 const row=x=>{const excluded=isExcluded(x);
 const nameNote=week3&&x.note?c.notes[x.note]:'';
 return `<div class="boardrow week1-row ${!excluded&&x.rank&&x.rank<=limit?'top30':''} ${excluded?'excluded':''}"><span class="rank">${excluded?'—':x.rank?'#'+x.rank:'—'}</span><div><b>${safe(x.fullName||x.name)}</b>${x.fullName?'<small>'+safe(x.name)+'</small>':''}${excluded?'<small class="exclusion-note">'+safe(nameNote||c.pendingName||(lang==='vi'?'Cần cập nhật tên Strava đúng cú pháp để được ghi nhận kết quả.':'Please update your Strava name to the required format so your result can be counted.'))+'</small>':'<small>'+x.activities+' '+c.activities+'</small>'}${nameNote&&!excluded?'<small class="name-action">'+safe(nameNote)+'</small>':''}</div><strong>${number(x.km)} KM</strong></div>`};
-const km=ranked.reduce((sum,x)=>sum+Math.round(x.km*100),0)/100,activities=(week3?snapshot:ranked).reduce((sum,x)=>sum+x.activities,0);
+const km=ranked.reduce((sum,x)=>sum+Math.round(x.km*100),0)/100,activities=ranked.reduce((sum,x)=>sum+x.activities,0);
 const summary=number(km)+' KM · '+activities+' '+c.activities;
 $('board').innerHTML=`<div class="week1-notice"><p class="cutoff">${c.cutoff}</p><p>${c.notice}</p></div><p class="week1-summary">${summary}</p><div class="week1-columns"><span>${c.rank}</span><span>${c.name}</span><span>${c.km}</span></div>`+(ordered.length?ordered.map(row).join(''):(!unranked.length?`<div class="empty">${c.empty}</div>`:''))+(unranked.length?`<details class="week1-unranked" ${term?'open':''}><summary>${c.unranked} (${unranked.length})</summary>${unranked.map(row).join('')}</details>`:'');
 $('boardupdated').textContent=c.cutoff;
